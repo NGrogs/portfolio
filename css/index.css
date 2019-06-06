@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.black-bar {
+    width: 100%;
+    background-color: black;
+    min-height: .2em;
+}
+
+.mybox {
+    min-height: 6em;
+
+}
+
+.profile-pic {
+    background-image: url('../Images/me.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    height: 100;
+}
