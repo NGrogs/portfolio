@@ -21,10 +21,12 @@
 
 }
 
-.profile-pic {
-    background-image: url('../Images/me.jpg');
-    background-position: center;
+.selfie {
+    background-image: url("../Images/me.jpg");
     background-size: cover;
-    z-index: 1;
-    height: 100;
+    background-position: center;
+    object-fit: cover;
+    height: 25em;
+    border: 1px black solid;
+    
 }
